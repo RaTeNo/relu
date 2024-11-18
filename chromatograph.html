@@ -179,35 +179,377 @@
 				</section>
 
 
-				<section class="home_page">
-					<div class="rooms">
+				<section class="chromatograph">
+					<div class="back_btn">
 						<a href="/">
-							<span>Склад</span>
-						</a>
+							<div class="icon">
+								<svg><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+							</div>
 
-						<a href="/">
-							<span>Весовая</span>
-						</a>
-
-						<a href="/">
-							<span>Приготовление<br> растворов</span>
-						</a>
-
-						<a href="/">
-							<span>Хроматограф</span>
+							<span>Назад</span>
 						</a>
 					</div>
 
-					<div class="bottom_panel">
-						<div class="cont">
-							<div class="data"></div>
+					<div class="main_data">
+						<div class="row">
+							<div class="section big">
+								<div class="title">Хроматограф</div>
+
+								<div class="row">
+									<button class="btn no">
+										<div class="status">
+											<div class="green"></div>
+											<div class="red"></div>
+										</div>
+
+										<div class="icon small">
+											<svg><use xlink:href="images/sprite.svg#ic_chromatograph1"></use></svg>
+										</div>
+
+										<div>
+											<div class="name">Установить</div>
+
+											<div class="desc">Поставить банки на хроматограф</div>
+										</div>
+									</button>
+
+									<button class="btn no disabled">
+										<div class="status">
+											<div class="green"></div>
+											<div class="red"></div>
+										</div>
+
+										<div class="icon small">
+											<svg><use xlink:href="images/sprite.svg#ic_chromatograph1"></use></svg>
+										</div>
+
+										<div>
+											<div class="name">Включить</div>
+
+											<div class="desc">Включает весь хроматограф</div>
+										</div>
+									</button>
+
+									<button class="btn no disabled">
+										<div class="status">
+											<div class="green"></div>
+											<div class="red"></div>
+										</div>
+
+										<div class="icon">
+											<svg><use xlink:href="images/sprite.svg#ic_chromatograph2"></use></svg>
+										</div>
+
+										<div>
+											<div class="name">Открыть</div>
+
+											<div class="desc">Вентель промыки каппиляров</div>
+										</div>
+									</button>
+
+									<button class="btn no disabled">
+										<div class="status">
+											<div class="green"></div>
+											<div class="red"></div>
+										</div>
+
+										<div class="icon">
+											<svg><use xlink:href="images/sprite.svg#ic_chromatograph3"></use></svg>
+										</div>
+
+										<div>
+											<div class="name">Заменить колонки</div>
+
+											<div class="desc">Замена колонки в хроматографе</div>
+										</div>
+									</button>
+								</div>
+							</div>
+
+							<div class="section">
+								<div class="title">Насос</div>
+
+								<button class="btn no disabled">
+									<div class="status">
+										<div class="green"></div>
+										<div class="red"></div>
+									</div>
+
+									<div class="icon">
+										<svg><use xlink:href="images/sprite.svg#ic_chromatograph4"></use></svg>
+									</div>
+
+									<div>
+										<div class="name">Включить</div>
+
+										<div class="desc">Управление насосом хроматографа</div>
+									</div>
+								</button>
+							</div>
+
+							<div class="section">
+								<div class="title">Инжектор</div>
+
+								<button class="btn no disabled">
+									<div class="status">
+										<div class="green"></div>
+										<div class="red"></div>
+									</div>
+
+									<div class="icon middle">
+										<svg><use xlink:href="images/sprite.svg#ic_chromatograph5"></use></svg>
+									</div>
+
+									<div>
+										<div class="name">Подсоеденить</div>
+
+										<div class="desc">Ввод шприцов в кран хроматографа</div>
+									</div>
+								</button>
+							</div>
+
+							<div class="section">
+								<div class="title">Работа с ПО</div>
+
+								<button class="default_btn modal_btn" data-modal="chromatograph_error_modal">
+									<svg><use xlink:href="images/sprite.svg#ic_chromatograph6"></use></svg>
+
+									<span>Запустить ПО</span>
+								</button>
+							</div>
+
+							<div class="section">
+								<div class="title">Записи</div>
+
+								<button class="default_btn modal_btn" data-modal="chromatograph_error2_modal">
+									<svg><use xlink:href="images/sprite.svg#ic_chromatograph7"></use></svg>
+
+									<span>Внести записи</span>
+								</button>
+							</div>
 						</div>
 					</div>
 
-					<img src="images/tmp/home_page_img.jpg" alt="" loading="lazy" class="img">
+					<img src="images/tmp/chromatograph_img.jpg" alt="" loading="lazy" class="bg">
+
+					<div class="bottom_panel">
+						<div class="cont">
+							<div class="data">
+								<div class="filter">
+									<div class="title">Фильтры</div>
+
+									<div class="field">
+										<label class="checkbox">
+											<input type="checkbox" name="group1" checked>
+
+											<div class="check"></div>
+
+											<div>тарированные</div>
+										</label>
+									</div>
+
+									<div class="field">
+										<label class="checkbox">
+											<input type="checkbox" name="group1" checked>
+
+											<div class="check"></div>
+
+											<div>взвешенные</div>
+										</label>
+									</div>
+								</div>
+
+								<div class="swiper">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<div class="item" data-modal="object1_modal">
+												<button class="remove_btn">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_remove"></use></svg>
+												</button>
+
+												<div class="thumb">
+													<img src="images/tmp/warehouse_item_thumb1.png" alt="" loading="lazy">
+												</div>
+
+												<div class="name">Мерный цилиндр</div>
+											</div>
+										</div>
+
+										<div class="swiper-slide">
+											<div class="item" data-modal="object1_modal">
+												<button class="remove_btn">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_remove"></use></svg>
+												</button>
+
+												<div class="thumb">
+													<img src="images/tmp/warehouse_item_thumb2.png" alt="" loading="lazy">
+												</div>
+
+												<div class="name">Закрытый бюкс</div>
+											</div>
+										</div>
+
+										<div class="swiper-slide">
+											<div class="item" data-modal="object1_modal">
+												<button class="remove_btn">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_remove"></use></svg>
+												</button>
+
+												<div class="thumb">
+													<img src="images/tmp/warehouse_item_thumb3.png" alt="" loading="lazy">
+												</div>
+
+												<div class="name">Мерная колба</div>
+											</div>
+										</div>
+
+										<div class="swiper-slide">
+											<div class="item" data-modal="object1_modal">
+												<button class="remove_btn">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_remove"></use></svg>
+												</button>
+
+												<div class="thumb">
+													<img src="images/tmp/warehouse_item_thumb4.png" alt="" loading="lazy">
+												</div>
+
+												<div class="name">Емкость воды очищ</div>
+											</div>
+										</div>
+
+										<div class="swiper-slide">
+											<div class="item" data-modal="object1_modal">
+												<button class="remove_btn">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_remove"></use></svg>
+												</button>
+
+												<div class="icons">
+													<div>
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_scales"></use></svg>
+													</div>
+												</div>
+
+												<div class="thumb">
+													<img src="images/tmp/warehouse_item_thumb5.png" alt="" loading="lazy">
+												</div>
+
+												<div class="name">Крышка бюкса</div>
+											</div>
+										</div>
+
+										<div class="swiper-slide">
+											<div class="item" data-modal="object1_modal">
+												<button class="remove_btn">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_remove"></use></svg>
+												</button>
+
+												<div class="icons column">
+													<div class="text">0,8555</div>
+
+													<div>
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_scales"></use></svg>
+													</div>
+
+													<div>
+														<img src="images/ic_drop.png" alt="" class="icon" loading="lazy">
+													</div>
+												</div>
+
+												<div class="thumb">
+													<img src="images/tmp/warehouse_item_thumb6.png" alt="" loading="lazy">
+												</div>
+
+												<div class="name">Открытый бюкс</div>
+											</div>
+										</div>
+
+										<div class="swiper-slide">
+											<div class="item" data-modal="object1_modal">
+												<button class="remove_btn">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_remove"></use></svg>
+												</button>
+
+												<div class="thumb">
+													<img src="images/tmp/warehouse_item_thumb6.png" alt="" loading="lazy">
+												</div>
+
+												<div class="name">Открытый бюкс</div>
+											</div>
+										</div>
+
+										<div class="swiper-slide">
+											<div class="item" data-modal="object1_modal">
+												<button class="remove_btn">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_remove"></use></svg>
+												</button>
+
+												<div class="thumb">
+													<img src="images/tmp/warehouse_item_thumb6.png" alt="" loading="lazy">
+												</div>
+
+												<div class="name">Открытый бюкс</div>
+											</div>
+										</div>
+
+										<div class="swiper-slide">
+											<div class="item" data-modal="object1_modal">
+												<button class="remove_btn">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_remove"></use></svg>
+												</button>
+
+												<div class="thumb">
+													<img src="images/tmp/warehouse_item_thumb6.png" alt="" loading="lazy">
+												</div>
+
+												<div class="name">Открытый бюкс</div>
+											</div>
+										</div>
+									</div>
+
+									<button class="swiper-button-prev">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+									</button>
+
+									<button class="swiper-button-next">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+									</button>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="modal object_modal" id="object1_modal">
+							<button class="close_btn">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+							</button>
+
+							<div class="name">Бюкс</div>
+
+							<div class="overflow">
+								<div class="thumb">
+									<img src="images/tmp/point_modal_thumb.png" alt="" loading="lazy">
+								</div>
+
+								<div class="type">Тип: <span>Посуда: 30 мл.</span></div>
+							</div>
+
+							<div class="status">
+								<div class="label">Статус:</div>
+
+								<div class="val">Пустой</div>
+							</div>
+
+							<div class="btns">
+								<button class="btn">Переместить на стол</button>
+							</div>
+						</div>
+					</div>
 				</section>
 			</div>
 		</div>
+
+
+
 
 
 		<section class="modal" id="tasks_modal">
@@ -486,6 +828,30 @@
 			<div class="modal_title">Таблица<br> Менделеева</div>
 
 			<img src="images/tmp/periodic_table_img.png" alt="" loading="lazy">
+		</section>
+
+
+		<section class="modal error_modal" id="chromatograph_error_modal">
+			<div class="modal_title">Ошибка!</div>
+
+			<div class="modal_desc">
+				<p>Данное действие не возможно выполнить, пожалуйста поменяйте параметры и попробуйте еще раз!</p>
+			</div>
+
+			<button class="close_btn">Закрыть</button>
+		</section>
+
+
+		<section class="modal error_modal" id="chromatograph_error2_modal">
+			<div class="modal_title">Вы совершили критическую ошибку!</div>
+
+			<div class="modal_desc">
+				<p>Вам не удалось выполнить и  пройти необходимые этапы билета.</p>
+
+				<p>За подробной информацией обращайтесь к преподавателю!</p>
+			</div>
+
+			<button class="close_btn">Закрыть</button>
 		</section>
 
 

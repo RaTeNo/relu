@@ -179,7 +179,7 @@
 				</section>
 
 
-				<section class="warehouse">
+				<section class="exhaust">
 					<div class="back_btn">
 						<a href="/">
 							<div class="icon">
@@ -191,164 +191,468 @@
 					</div>
 
 					<div class="image">
-						<img src="images/tmp/warehouse_img.jpg" alt="" loading="lazy" class="img">
+						<img src="images/tmp/exhaust_img.jpg" alt="" loading="lazy" class="img">
 
-						<div class="point point1" data-modal="point1_modal">
-							<div class="name">Колба мерная</div>
-						</div>
+						<button class="btn btn1" data-modal="ph_meter_modal">Взаимодействовать</button>
 
-						<div class="point point2" data-modal="point1_modal">
-							<div class="name">Колба мерная</div>
-						</div>
+						<button class="btn btn2" data-modal="mixer_modal">Взаимодействовать</button>
 
-						<div class="point point3" data-modal="point1_modal">
-							<div class="name">Колба мерная</div>
-						</div>
+						<button class="btn btn3" data-modal="bath_modal">Взаимодействовать</button>
 
-						<div class="point point4" data-modal="point1_modal">
-							<div class="name">Колба мерная</div>
-						</div>
+						<button class="btn btn4" data-modal="filtration_modal">Взаимодействовать</button>
 
-						<div class="point point5" data-modal="point1_modal">
-							<div class="name">Колба мерная</div>
-						</div>
-
-						<div class="point point6" data-modal="point1_modal">
-							<div class="name">Колба мерная</div>
-						</div>
-
-						<div class="point point7" data-modal="point1_modal">
-							<div class="name">Колба мерная</div>
-						</div>
-
-						<div class="point point8" data-modal="point1_modal">
-							<div class="name">Колба мерная</div>
-						</div>
-
-						<div class="point point9" data-modal="point1_modal">
-							<div class="name">Колба мерная</div>
-						</div>
-
-						<div class="point point10" data-modal="point1_modal">
-							<div class="name">Колба мерная</div>
-						</div>
-
-						<div class="point point11" data-modal="point1_modal">
-							<div class="name">Колба мерная</div>
-						</div>
-
-						<div class="point point12" data-modal="point1_modal">
-							<div class="name">Колба мерная</div>
-						</div>
-
-						<div class="point point13" data-modal="point1_modal">
-							<div class="name">Колба мерная</div>
-						</div>
-
-						<div class="point point14" data-modal="point1_modal">
-							<div class="name">Колба мерная</div>
-						</div>
-
-						<div class="point point15" data-modal="point1_modal">
-							<div class="name">Колба мерная</div>
-						</div>
-
-						<div class="point point16" data-modal="point1_modal">
-							<div class="name">Колба мерная</div>
-						</div>
-
-						<div class="point point17" data-modal="point1_modal">
-							<div class="name">Колба мерная</div>
-						</div>
-
-						<div class="point point18" data-modal="point1_modal">
-							<div class="name">Колба мерная</div>
-						</div>
-
-						<div class="point point19" data-modal="point1_modal">
-							<div class="name">Колба мерная</div>
-						</div>
-
-						<div class="point point20" data-modal="point1_modal">
-							<div class="name">Колба мерная</div>
-						</div>
-
-						<div class="point point21" data-modal="point1_modal">
-							<div class="name">Колба мерная</div>
-						</div>
-
-						<div class="point point22" data-modal="point1_modal">
-							<div class="name">Колба мерная</div>
-						</div>
-
-						<div class="point point23" data-modal="point1_modal">
-							<div class="name">Колба мерная</div>
-						</div>
-
-						<div class="point point24" data-modal="point1_modal">
-							<div class="name">Колба мерная</div>
-						</div>
-
-						<div class="point point25" data-modal="point1_modal">
-							<div class="name">Колба мерная</div>
-						</div>
-
-						<div class="point point26" data-modal="point1_modal">
-							<div class="name">Колба мерная</div>
-						</div>
-
-						<div class="point point27" data-modal="point1_modal">
-							<div class="name">Колба мерная</div>
-						</div>
-
-						<div class="point point28" data-modal="point1_modal">
-							<div class="name">Колба мерная</div>
-						</div>
-
-						<div class="point point29" data-modal="point1_modal">
-							<div class="name">Колба мерная</div>
-						</div>
-
-						<div class="point point30" data-modal="point1_modal">
-							<div class="name">Колба мерная</div>
-						</div>
+						<button class="btn btn5" data-modal="filtration_modal">Взаимодействовать</button>
 
 
-						<div class="modal object_modal" id="point1_modal">
+						<div class="exhaust_modal object_modal big" id="ph_meter_modal">
 							<button class="close_btn">
 								<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
 							</button>
 
-							<div class="name">Вода очищенная</div>
+							<div class="title">Взаимойдествие с ph-Meter</div>
+
+							<!-- <div class="border empty">
+								<button class="add_btn">
+									<span class="icon">+</span>
+									<span>Кликните здесь, чтобы добавить объект для взаимодействия</span>
+								</button>
+							</div> -->
+
+							<div class="border">
+								<div class="name">Химический стакан</div>
+
+								<div class="overflow">
+									<div class="thumb">
+										<img src="images/tmp/point_modal_thumb.png" alt="" loading="lazy">
+									</div>
+
+									<div class="type">Тип: <span>Посуда</span></div>
+								</div>
+
+								<div class="status">
+									<div class="label">Статус:</div>
+
+									<div class="val">Хим. вещество 250 мл.</div>
+								</div>
+							</div>
+
+							<div class="install_electrodes">
+								<div class="field">
+									<input type="text" inputmode="numeric" name="" value="" class="input" placeholder="000.0000">
+
+									<div class="unit">pH</div>
+								</div>
+
+								<div class="exp">Установка электродов</div>
+
+								<div class="btns">
+									<button class="btn border">Изьять</button>
+
+									<button class="btn">Установить</button>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="exhaust_modal object_modal big" id="mixer_modal">
+							<button class="close_btn">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+							</button>
+
+							<div class="title">Взаимойдествие с мешалкой</div>
+
+							<!-- <div class="border empty">
+								<button class="add_btn">
+									<span class="icon">+</span>
+									<span>Кликните здесь, чтобы добавить объект для взаимодействия</span>
+								</button>
+							</div> -->
+
+							<div class="border">
+								<div class="name">Химический стакан</div>
+
+								<div class="overflow">
+									<div class="thumb">
+										<img src="images/tmp/point_modal_thumb.png" alt="" loading="lazy">
+									</div>
+
+									<div class="type">Тип: <span>Посуда</span></div>
+								</div>
+
+								<div class="status">
+									<div class="label">Статус:</div>
+
+									<div class="val">Хим. вещество 250 мл.</div>
+								</div>
+							</div>
+
+							<div class="bottom">
+								<div class="progress">
+									<div style="width: 50%;"></div>
+								</div>
+
+								<div class="range time">
+									<div class="label">Время (сек)</div>
+
+									<input type="hidden" id="mixer_time" name="time" value="">
+								</div>
+
+								<div class="btns">
+									<button class="btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_video_play"></use></svg>
+										<span>Запустить</span>
+									</button>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="exhaust_modal interaction_data" id="bath_modal">
+							<button class="close_btn">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+							</button>
+
+							<div class="data">
+								<div class="head">
+									<div class="title">Взаимойдествие<br> с УЗ ванной</div>
+								</div>
+
+								<div class="objects">
+									<button class="move_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_move"></use></svg>
+									</button>
+
+									<div class="object">
+										<div class="name">Мерная колба</div>
+
+										<div class="overflow">
+											<div class="thumb">
+												<img src="images/tmp/object_thumb2.png" alt="" loading="lazy">
+											</div>
+
+											<div class="type">Тип: <span>Посуда</span></div>
+										</div>
+
+										<div class="status">
+											<div class="label">Статус:</div>
+
+											<div class="val">Хим. вещество</div>
+										</div>
+									</div>
+
+									<div class="object">
+										<div class="name">Мерная колба</div>
+
+										<div class="overflow">
+											<div class="thumb">
+												<img src="images/tmp/object_thumb2.png" alt="" loading="lazy">
+											</div>
+
+											<div class="type">Тип: <span>Посуда</span></div>
+										</div>
+
+										<div class="status">
+											<div class="label">Статус:</div>
+
+											<div class="val">Хим. вещество</div>
+										</div>
+									</div>
+
+									<!-- <div class="object empty">
+										<button class="add_btn">
+											<span class="icon">+</span>
+											<span>Кликните здесь, чтобы добавить объект для взаимодействия</span>
+										</button>
+									</div> -->
+								</div>
+
+								<div class="bottom">
+									<div class="progress">
+										<div style="width: 50%;"></div>
+									</div>
+
+									<div class="range temperature">
+										<div class="label">Температура</div>
+
+										<input type="hidden" id="bath_temperature" name="temperature" value="">
+									</div>
+
+									<div class="range time">
+										<div class="label">Время (сек)</div>
+
+										<input type="hidden" id="bath_time" name="time" value="">
+									</div>
+
+									<div class="btns">
+										<button class="btn">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_video_play"></use></svg>
+											<span>Запустить</span>
+										</button>
+									</div>
+								</div>
+							</div>
+
+							<div class="exp">
+								<div class="icon">
+									<svg><use xlink:href="images/sprite.svg#ic_exp"></use></svg>
+								</div>
+
+								<span>выберите необходимые вещества в мернхы колбах/ настройте температуру /  выставьте правильно время / нажмите кнопку запустить</span>
+							</div>
+						</div>
+
+
+						<div class="exhaust_modal interaction_data" id="filtration_modal">
+							<button class="close_btn">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+							</button>
+
+							<div class="data">
+								<div class="head">
+									<div class="title">Взаимойдествие с<br> установкой фильтрации</div>
+								</div>
+
+								<div class="objects">
+									<button class="move_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_move"></use></svg>
+									</button>
+
+									<div class="object">
+										<div class="name">Подвижная фаза</div>
+
+										<div class="overflow">
+											<div class="thumb">
+												<img src="images/tmp/object_thumb2.png" alt="" loading="lazy">
+											</div>
+
+											<div class="type">Тип: <span>Посуда: 900 мл</span></div>
+										</div>
+
+										<div class="status">
+											<div class="label">Статус:</div>
+
+											<div class="val">Подвижная фаза 500 мл</div>
+										</div>
+									</div>
+
+									<div class="object">
+										<div class="name">Стакан для ввода</div>
+
+										<div class="overflow">
+											<div class="thumb">
+												<img src="images/tmp/object_thumb2.png" alt="" loading="lazy">
+											</div>
+
+											<div class="type">Тип: <span>Посуда:</span></div>
+										</div>
+
+										<div class="status">
+											<div class="label">Статус:</div>
+
+											<div class="val">Пустой</div>
+										</div>
+									</div>
+
+									<!-- <div class="object empty">
+										<button class="add_btn">
+											<span class="icon">+</span>
+											<span>Кликните здесь, чтобы добавить объект для взаимодействия</span>
+										</button>
+									</div> -->
+								</div>
+
+								<button class="action_btn">Профильтровать</button>
+							</div>
+
+							<div class="exp">
+								<div class="icon">
+									<svg><use xlink:href="images/sprite.svg#ic_exp"></use></svg>
+								</div>
+
+								<span>выберите необходимые вещества в мернхы колбах/ настройте температуру /  выставьте правильно время / нажмите кнопку запустить</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="right_data">
+						<div class="scroll">
+							<div class="section on_table">
+								<div class="head">
+									<div class="title">На столе</div>
+
+									<button class="get_all_btn">Взять все</button>
+								</div>
+
+								<div class="row">
+									<div class="item" data-modal="exhaust_object1_modal">
+										<div class="thumb">
+											<img src="images/tmp/weight_equipment_item_thumb2.png" alt="" loading="lazy">
+										</div>
+
+										<div class="name">Емкость воды очищ</div>
+									</div>
+
+									<div class="item" data-modal="exhaust_object1_modal">
+										<div class="thumb">
+											<img src="images/tmp/weight_equipment_item_thumb2.png" alt="" loading="lazy">
+										</div>
+
+										<div class="name">Емкость воды очищ</div>
+									</div>
+
+									<div class="item" data-modal="exhaust_object1_modal">
+										<div class="thumb">
+											<img src="images/tmp/weight_equipment_item_thumb3.png" alt="" loading="lazy">
+										</div>
+
+										<div class="name">Открытый бюкс</div>
+									</div>
+
+									<div class="item" data-modal="exhaust_object1_modal">
+										<button class="remove_btn">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+										</button>
+
+										<div class="icons column">
+											<div class="text">0,8555</div>
+
+											<div>
+												<img src="images/ic_drop.png" alt="" class="icon" loading="lazy">
+											</div>
+										</div>
+
+										<div class="thumb">
+											<img src="images/tmp/weight_equipment_item_thumb3.png" alt="" loading="lazy">
+										</div>
+
+										<div class="name">Открытый бюкс</div>
+									</div>
+
+									<div class="item" data-modal="exhaust_object1_modal">
+										<div class="icons column">
+											<div>
+												<img src="images/ic_mountains.png" alt="" class="icon" loading="lazy">
+											</div>
+										</div>
+
+										<div class="thumb">
+											<img src="images/tmp/weight_equipment_item_thumb3.png" alt="" loading="lazy">
+										</div>
+
+										<div class="name">Открытый бюкс</div>
+									</div>
+
+									<div class="item" data-modal="exhaust_object1_modal">
+										<div class="icons column">
+											<div>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_scales"></use></svg>
+											</div>
+										</div>
+
+										<div class="thumb">
+											<img src="images/tmp/weight_equipment_item_thumb3.png" alt="" loading="lazy">
+										</div>
+
+										<div class="name">Открытый бюкс</div>
+									</div>
+
+									<div class="item" data-modal="exhaust_object1_modal">
+										<div class="thumb">
+											<img src="images/tmp/weight_equipment_item_thumb2.png" alt="" loading="lazy">
+										</div>
+
+										<div class="name">Емкость воды очищ</div>
+									</div>
+
+									<div class="item" data-modal="exhaust_object1_modal">
+										<div class="icons column">
+											<div>
+												<img src="images/ic_mountains.png" alt="" class="icon" loading="lazy">
+											</div>
+										</div>
+
+										<div class="thumb">
+											<img src="images/tmp/weight_equipment_item_thumb3.png" alt="" loading="lazy">
+										</div>
+
+										<div class="name">Открытый бюкс</div>
+									</div>
+
+									<div class="item" data-modal="exhaust_object1_modal">
+										<div class="thumb">
+											<img src="images/tmp/weight_equipment_item_thumb2.png" alt="" loading="lazy">
+										</div>
+
+										<div class="name">Емкость воды очищ</div>
+									</div>
+
+									<div class="item" data-modal="exhaust_object1_modal">
+										<div class="icons column">
+											<div>
+												<img src="images/ic_drop.png" alt="" class="icon" loading="lazy">
+											</div>
+										</div>
+
+										<div class="thumb">
+											<img src="images/tmp/weight_equipment_item_thumb3.png" alt="" loading="lazy">
+										</div>
+
+										<div class="name">Открытый бюкс</div>
+									</div>
+
+									<div class="item" data-modal="exhaust_object1_modal">
+										<div class="thumb">
+											<img src="images/tmp/weight_equipment_item_thumb2.png" alt="" loading="lazy">
+										</div>
+
+										<div class="name">Емкость воды очищ</div>
+									</div>
+
+									<div class="item" data-modal="exhaust_object1_modal">
+										<div class="icons column">
+											<div>
+												<img src="images/ic_drop.png" alt="" class="icon" loading="lazy">
+											</div>
+										</div>
+
+										<div class="thumb">
+											<img src="images/tmp/weight_equipment_item_thumb3.png" alt="" loading="lazy">
+										</div>
+
+										<div class="name">Открытый бюкс</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="modal object_modal" id="exhaust_object1_modal">
+							<button class="close_btn">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+							</button>
+
+							<div class="name">Бюкс</div>
 
 							<div class="overflow">
 								<div class="thumb">
 									<img src="images/tmp/point_modal_thumb.png" alt="" loading="lazy">
 								</div>
 
-								<div class="type">Тип: Посуда</div>
+								<div class="type">Тип: <span>Посуда: 30 мл.</span></div>
 							</div>
 
 							<div class="status">
 								<div class="label">Статус:</div>
 
-								<div class="val">Наполнено / Закрыто / Тарировано / Взвешено</div>
+								<div class="val">Вода: 25 мл</div>
 							</div>
 
-							<div class="move">
-								<div class="label">Переместить в инивентарь?</div>
+							<div class="btns">
+								<button class="btn interaction_btn">Взаимодействовать</button>
 
-								<div class="amount">
-									<button type="button" class="btn minus"></button>
+								<button class="btn border">Убрать в мойку</button>
 
-									<input type="text" value="1" class="input" data-minimum="1" data-maximum="999" data-step="1" data-unit="" maxlength="3">
-
-									<button type="button" class="btn plus"></button>
-
-									<div class="unit">(шт)</div>
-								</div>
-
-								<button class="submit_btn">Да</button>
+								<button class="btn border">Переместить в инвентарь</button>
 							</div>
 						</div>
 					</div>
