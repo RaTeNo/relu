@@ -694,7 +694,7 @@ header .menu .menu_item .btn
 
     color: #2850a8;
     border-radius: 18px;
-    background: rgba(255, 255, 255, .80);
+    background: rgba(255, 255, 255, 1);
     box-shadow: 6px 6px 14px 0 rgba(1, 33, 69, .15);
 
     gap: 4px;
@@ -719,7 +719,7 @@ header .menu .menu_item .icon
 header .menu .menu_item a:hover,
 header .menu .menu_item .btn:hover
 {
-    background: #fff;
+    background: #E3ECFF;
 }
 
 
@@ -2127,6 +2127,11 @@ header .select_room_btn:hover
     color: #fff;
     border-radius: 12px;
     background: #2850a8;
+    transition: 0.3s;
+}
+
+.object_modal .move .submit_btn:hover{
+    background: #003571;
 }
 
 
@@ -2796,8 +2801,8 @@ header .select_room_btn:hover
     flex-wrap: wrap;
     justify-content: center;
 
-    width: 20px;
-    height: 20px;
+    width: 28px;
+    height: 28px;
 
     transition: .2s linear;
 
@@ -2812,8 +2817,8 @@ header .select_room_btn:hover
 {
     display: block;
 
-    width: 10px;
-    height: 10px;
+    width: 12px;
+    height: 12px;
 }
 
 
@@ -2915,6 +2920,11 @@ header .select_room_btn:hover
     color: #001b3d;
     border-radius: 55px;
     background: #a9c7ff;
+    transition: 0.3s;
+}
+
+.weight .interaction_data .objects .move_btn:hover{
+    background: rgba(214, 227, 255, 1);
 }
 
 
@@ -2941,6 +2951,7 @@ header .select_room_btn:hover
     border: 1px dashed #737781;
     border-radius: 10px;
     background: #f9f9ff;
+    transition: 0.3s;
 }
 
 
@@ -3089,6 +3100,11 @@ header .select_room_btn:hover
     text-align: center;
 
     color: #18191b;
+    transition: 0.3s;
+}
+
+.weight .interaction_data .object:hover{
+    filter: drop-shadow(0px 0px 10px #69BFFF);
 }
 
 
@@ -3136,6 +3152,11 @@ header .select_room_btn:hover
     border: 1px dashed #737781;
     border-radius: 10px;
     background: #e8e8ee;
+    transition: 0.3s;
+}
+
+.weight .interaction_data .bottom .add_btn:hover{
+    filter: drop-shadow(0px 0px 10px #69BFFF);
 }
 
 
@@ -3234,7 +3255,10 @@ header .select_room_btn:hover
     margin-left: auto;
 
     gap: 10px;
+   
 }
+
+
 
 
 .weight .interaction_data .range .btn
@@ -3249,6 +3273,11 @@ header .select_room_btn:hover
     border: 1px solid #f5f5f5;
     border-radius: 8px;
     background: #f5f5f5;
+     transition: 0.3s;
+}
+
+.weight .interaction_data .range .btn:hover{
+    background: #E3ECFF;
 }
 
 
@@ -3256,8 +3285,12 @@ header .select_room_btn:hover
 {
     color: #f5f5f5;
     background: none;
+    transition: 0.3s;
 }
 
+.weight .interaction_data .range .btn.border:hover{
+    border: 1px solid #E3ECFF;
+}
 
 .weight .interaction_data .exp
 {
@@ -3564,8 +3597,8 @@ header .select_room_btn:hover
     flex-wrap: wrap;
     justify-content: center;
 
-    width: 20px;
-    height: 20px;
+    width: 28px;
+    height: 28px;
 
     transition: .2s linear;
 
@@ -3580,8 +3613,8 @@ header .select_room_btn:hover
 {
     display: block;
 
-    width: 10px;
-    height: 10px;
+    width: 12px;
+    height: 12px;
 }
 
 
@@ -3683,8 +3716,12 @@ header .select_room_btn:hover
     color: #001b3d;
     border-radius: 55px;
     background: #a9c7ff;
+    transition: 0.3s;
 }
 
+.exhaust .interaction_data .objects .move_btn:hover{
+    background: #D6E3FF;
+}
 
 .exhaust .interaction_data .objects .move_btn .icon
 {
@@ -3709,6 +3746,11 @@ header .select_room_btn:hover
     border: 1px dashed #737781;
     border-radius: 10px;
     background: #f9f9ff;
+    transition: 0.3s;
+}
+
+.exhaust .interaction_data .object:hover{
+    filter: drop-shadow(0px 0px 10px #69BFFF);
 }
 
 
@@ -4493,7 +4535,14 @@ header .select_room_btn:hover
     border: 2px solid #fff;
     border-radius: 50%;
     background: rgba(40, 80, 168, .90);
+    transition: 0.3s;
 }
+
+.select_room_modal .close_btn:hover{
+    background-color: #A9C7FF;
+}
+
+
 
 
 .select_room_modal .close_btn .icon
@@ -6043,8 +6092,20 @@ header .select_room_btn:hover
 
     padding: 5px 20px;
 
-    color: #005b51;
-    border: 1px solid #005b51;
+    color: #008376;
+    border: 1px solid #008376;
+    transition: 0.3s;
+}
+
+.software .full_panel .grid .block .btns .btn:hover{
+    
+    color: #005B51;
+    border: 1px solid #005B51;
+}
+
+.software .full_panel .grid .block .btns .btn:active{
+    color: #008376;
+    border: 1px dashed #005B51;
 }
 
 
