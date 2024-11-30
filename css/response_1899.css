@@ -101,7 +101,7 @@
     ------------*/
     .weight .right_data
     {
-        width: 560px;
+        width: 380px;
         height: calc(100vh - 224px);
     }
 
@@ -125,7 +125,7 @@
     {
         font-size: 10px;
 
-        padding: 10px 4px 4px;
+        padding: 4px 4px 4px;
     }
 
 
@@ -141,10 +141,16 @@
         padding: 2px 4px;
     }
 
+    .weight .right_data .row > *
+    {
+        width: calc(20% - 10px);
+        margin-bottom: 18px;
+        margin-left: 10px;
+    }
 
     .weight .right_data .item .thumb
     {
-        height: 56px;
+        height: 44px;
     }
 
 
@@ -152,7 +158,7 @@
     .weight .interaction_data
     {
         top: 84px;
-        left: 20px;
+        /*left: 20px;*/
 
         width: 510px;
     }
